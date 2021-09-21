@@ -1,0 +1,189 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: #d8d8d8;
+    font-family: 'Open Sans', sans-serif;
+    /*font-size: 11px;*/
+    display: flex;
+    justify-content: center;
+    color: #0957a9;
+}
+
+a, a:visited {
+	color: #007bff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0957a9;
+	text-decoration: underline;
+}
+
+.login_box {
+    width: 1050px;
+    height: 633px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #D8D8D8;
+    border-radius: 10px;
+    display: flex;
+		display: -webkit-flex; /* Safari */
+    overflow: hidden;
+}
+
+.login_box .leftside {
+  width: 52%;
+  height: 100%;
+  padding: 25px 25px;
+  background-color: #FFF;
+}
+
+.login_box .rightside {
+ 	width: 48%;
+	height: 100%;
+	background: #06B6B6;
+	color: #fff;
+	position: relative;
+}
+
+.logo {
+	position: relative;
+	display: block;
+}
+
+.logo img { 
+	position: relative;
+	display: block;
+	margin: 70px auto 0px auto;
+}
+
+.supportMessage, .cceLogin, .supportLinks, .copyright {
+	display: block;
+	position: relative;
+}
+
+.signInSchoolMessage {
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+	font-weight: normal;
+    font-style: normal;
+    color:  #0957a9;
+}
+
+.supportMessage {
+	width: 80%;
+	margin: 25px auto 25px auto;
+}
+
+.cceLogin {
+	width: 80%;
+	margin: 0px auto 0px auto;
+}
+
+.loginForm {
+	text-align: center;
+}
+
+.leftside input {
+	border: 1px solid #06B6B6;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	border-radius: 8px;
+    width: 80%;
+    border-bottom: 1px solid #4f30677d;
+    padding: 7px 9px;
+    width: 100%;
+    overflow: hidden;
+    background: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom:  10px;
+}
+
+input:focus, textarea:focus, select:focus {
+	background: rgba(255,165,0, .1)
+}
+
+input[type=submit] {
+    border: none;
+    padding: 15px 40px;
+		width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin: 0px auto 25px auto;
+    background: #0957a9 !important;
+    color: #fff;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    font-size: 16px;
+}
+
+label {
+	color: #666;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	text-align: left !important;
+}
+
+.supportLinks, a#ucLoginForm_lnkSupport {
+	text-align: center;
+	margin: 0px auto 50px auto;
+	font-size: 12px !important;
+	font-weight: bold !important;
+}
+
+/*.helpCenter {
+	margin-left:  25px;
+}*/
+
+.copyright {
+	text-align: center;
+	font-size: .7em;
+}
+
+.rightimg {
+	height: 260px;
+	width: 520px;
+	margin: 33px 0px 0px 0px;
+}
+
+.rightside .right-text{
+  position: relative;
+  transform: translate(0%, 45%);
+}
+.rightside h2 {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: 700;
+	margin: 20px 0px 0px 0px;
+}
+.rightside h3{
+	display: block;
+	width: 100%;
+	font-size: 1.1em;
+	font-weight: 700;
+	margin: 20px 0px 0px 20px;
+}
+
+.rightside ul  {
+	font-size: 1.1em;
+	font-weight: 700;
+	margin: 10px 0px 0px 20px;
+}
+
+.rightlogo {
+	padding: 8px;
+	top: 560px;
+	right: 10px;
+	position: absolute;
+}
+
+#hidden {
+	display: none;
+}
